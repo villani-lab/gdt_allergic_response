@@ -99,9 +99,12 @@ python_functions.plot_umap(reynolds_df,
           wspace=0.8,
           marker_multiplier=15,
           cluster_font_size=12,
-          axis_font_size=16
+          axis_font_size=16,
+    show=True
           )
 ```
+
+<img src="extended_figure_7_files/figure-gfm/reynolds_umap-5.png" width="960" />
 
 ## Extended Figure 7d
 
@@ -150,7 +153,7 @@ ht <- plot_gsea_heatmap(reynolds_gd3_vs_dermal_gsea)
 draw(ht)
 ```
 
-![](extended_figure_7_files/figure-gfm/reynolds_gsea-5.png)<!-- -->
+![](extended_figure_7_files/figure-gfm/reynolds_gsea-7.png)<!-- -->
 
 ## Extended Figure 7e
 

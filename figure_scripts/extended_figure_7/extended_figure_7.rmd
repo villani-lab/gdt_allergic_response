@@ -94,7 +94,8 @@ python_functions.plot_umap(reynolds_df,
           wspace=0.8,
           marker_multiplier=15,
           cluster_font_size=12,
-          axis_font_size=16
+          axis_font_size=16,
+	show=True
           )
 ```
 
